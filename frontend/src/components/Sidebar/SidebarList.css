@@ -1,0 +1,84 @@
+.SidebarList{
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+.SidebarList .row {
+    text-decoration: none;
+    height: 65px;
+    width: 100%;
+    border: none;
+    list-style-type: none;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.SidebarList .row:hover {
+    background-color: rgb(110, 110, 110);
+    cursor: pointer;
+}
+
+.row #icon{
+    text-size-adjust: auto;
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.row #title{
+    font-size: 15px;
+    text-size-adjust: auto;
+    flex:7 ;
+    text-decoration: none;
+    place-items: center;
+}
+
+.BottomTabs {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.BottomTabs .rowBottom {
+    text-decoration: none;
+    height: 65px;
+    width: 100%;
+    border: none;
+    list-style-type: none;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.BottomTabs .rowBottom:hover {
+    background-color: rgb(110, 110, 110);
+    cursor: pointer;
+    border-top-right-radius: 25px; 
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;
+}
+
+.BottomTabs #icon{
+    text-size-adjust: auto;
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.BottomTabs #title{
+    font-size: 15px;
+    text-size-adjust: auto;
+    flex:7 ;
+    text-decoration: none;
+    place-items: center;
+}

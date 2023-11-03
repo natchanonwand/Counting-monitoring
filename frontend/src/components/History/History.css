@@ -1,0 +1,76 @@
+.Searchbar {
+    width: 10%;
+    min-width: 200px;
+    margin-right: 50px;
+}
+
+.History {
+    align-items: center;
+    width: 100%;
+}
+
+.Bar {
+    background-color: #ccc; /* Set your desired grey color here */
+    height: 60px; /* Adjust the height to your preferred thickness */
+    padding: 0; /* Remove padding or set it to 0 */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Center vertically */
+    border-top-left-radius: 25px;
+}
+
+.centered-H {
+    color: #292828;
+    font-size: 20px;
+    text-align: flex-start ;
+    width: 100%;
+    margin-left: 12%;
+    text-shadow: 1px 2px 0px #a19f9f;
+}
+
+.History .List-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 30rem;
+    position: relative;
+    margin-right: 0px;
+  }
+  
+.container .calendar{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    margin-right: 0px;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    box-shadow: 0px 0px 8px #818181;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+  }
+
+.container .date-range-text {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.container .icon{
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.dateRange{
+    position: absolute;
+    top: 80px;
+  }

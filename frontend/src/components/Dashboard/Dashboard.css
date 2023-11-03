@@ -1,0 +1,35 @@
+.Searchbar {
+    width: 10%;
+    min-width: 200px;
+    margin-right: 50px;
+}
+
+.Dashboard {
+    align-items: center;
+    width: 100%;
+}
+
+.centered-D {
+    color: #292828;
+    font-size: 20px;
+    text-align: flex-start ;
+    width: 100%;
+    margin-left: 12%;
+    text-shadow: 1px 2px 0px #a19f9f;
+}
+
+    
+.Bar {
+    background-color: #ccc; /* Set your desired grey color here */
+    height: 60px; /* Adjust the height to your preferred thickness */
+    padding: 0; /* Remove padding or set it to 0 */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Center vertically */
+    border-top-left-radius: 25px;
+}
+.Dashboard .List-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
